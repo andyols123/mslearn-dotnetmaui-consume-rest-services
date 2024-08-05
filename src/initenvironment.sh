@@ -17,12 +17,8 @@ declare existingResourceGroup=$(az group list | jq '.[] | select(.tags."x-create
 
 # If there is more than one RG or there's only one but its name is not a GUID,
 # we're probably not in the Learn sandbox.
-if ! [ $existingResourceGroup ]
-then
-    echo "${warningStyle}WARNING!!!" \
-        "It appears you aren't currently running in a Microsoft Learn sandbox." \
-        "Any Azure resources provisioned by this script will result in charges" \
-        "to your Azure subscription.${defaultTextStyle}"
+if ! [ "$existingResourceGroup" ]; then
+    echo "WARNING!!! It appears you aren't currently running in a Microsoft Learn sandbox. Any Azure resources provisioned by this script will result in charges to your Azure subscription."
     resourceGroupName=$moduleName
 else
     resourceGroupName=$existingResourceGroup
@@ -37,4 +33,4 @@ cd webservice/PartsServer
 az webapp up -n $webappname --resource-group $resourceGroupName --sku FREE --plan $webappname
 
 echo "Web app deployed! Here is the url to use in the app:"
-echo https://$webappname.azurewebsites.net
+echo "https://$webappname.azurewebsites.net"

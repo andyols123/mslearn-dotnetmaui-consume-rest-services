@@ -126,7 +126,7 @@ public class PartsController : BaseController
 
             userParts.Add(part);
 
-            return this.Ok(part);
+            return new JsonResult(part);
         }
         catch (Exception ex)
         {

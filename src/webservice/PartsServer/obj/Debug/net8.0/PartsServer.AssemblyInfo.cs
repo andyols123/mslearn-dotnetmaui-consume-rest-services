@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PartsServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14af27a897ccef14d416b4f4c0704ef5cdd91761")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dfbb128b57e0db0c600f3544624461e5a0608117")]
 [assembly: System.Reflection.AssemblyProductAttribute("PartsServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PartsServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

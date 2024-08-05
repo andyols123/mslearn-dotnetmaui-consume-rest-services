@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KiwsgW6MGh8=",
+  "dgSpecHash": "aiU1tb4Jq6M=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Andrew\\source\\repos\\mslearn-dotnetmaui-consume-rest-services\\src\\webservice\\PartsServer\\PartsServer.csproj",
+  "projectFilePath": "C:\\Users\\Andrew\\Source\\Repos\\mslearn-dotnetmaui-consume-rest-services\\src\\webservice\\PartsServer\\PartsServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andrew\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Andrew\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
